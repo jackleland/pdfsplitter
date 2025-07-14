@@ -1,5 +1,5 @@
 import argparse
-from . import split_pdf
+from .splitter import split_pdf
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Split a multi-page PDF into individual pages.")

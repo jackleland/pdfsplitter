@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 from PyPDF2 import PdfWriter, PdfReader
-from pdfsplitter import split_pdf
+from pdfsplitter.splitter import split_pdf
 
 def create_pdf(path: Path, pages: int = 2) -> None:
     writer = PdfWriter()

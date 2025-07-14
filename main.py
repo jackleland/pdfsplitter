@@ -1,5 +1,5 @@
 from pdfsplitter.cli import main
-from pdfsplitter import split_pdf
+from pdfsplitter.splitter import split_pdf
 
 __all__ = ["main", "split_pdf"]
 
