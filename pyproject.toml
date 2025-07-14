@@ -13,4 +13,4 @@ dependencies = [
 ]
 
 [project.scripts]
-pdfsplitter = "main:main"
+pdfsplitter = "pdfsplitter.cli:main"

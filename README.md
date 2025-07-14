@@ -4,14 +4,13 @@ A simple command line tool to split a PDF into individual pages.
 
 ## Installation
 
-This project requires Python 3.8 or higher. Install the dependencies using pip:
+This project requires Python 3.8 or higher. Install the package using pip:
 
 ```bash
-pip install PyPDF2
+pip install .
 ```
 
-Alternatively, you can install the project in editable mode using the provided
-`pyproject.toml`:
+For development you can install in editable mode:
 
 ```bash
 pip install -e .
